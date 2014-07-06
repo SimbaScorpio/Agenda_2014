@@ -1,0 +1,76 @@
+﻿生成启动时间为 2014/7/6 17:25:36。
+     1>项目“C:\Users\hjc\Desktop\project\Service\Service\Service.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\src\AgendaService.cpp ..\..\src\AgendaUI.cpp ..\..\src\Date.cpp ..\..\src\LogMessage.cpp ..\..\src\mainService.cpp ..\..\src\Meeting.cpp ..\..\src\Service.cpp ..\..\src\SnakeGame.cpp ..\..\src\Storage.cpp ..\..\src\User.cpp
+         User.cpp
+         Storage.cpp
+     1>c:\users\hjc\desktop\project\src\storage.cpp(115): warning C4018: “<”: 有符号/无符号不匹配
+         SnakeGame.cpp
+     1>c:\users\hjc\desktop\project\src\snakegame.cpp(143): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\conio.h(131) : 参见“getch”的声明
+     1>c:\users\hjc\desktop\project\src\snakegame.cpp(156): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\conio.h(131) : 参见“getch”的声明
+     1>c:\users\hjc\desktop\project\src\snakegame.cpp(173): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\conio.h(131) : 参见“getch”的声明
+     1>c:\users\hjc\desktop\project\src\snakegame.cpp(189): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\conio.h(131) : 参见“getch”的声明
+     1>c:\users\hjc\desktop\project\src\snakegame.cpp(276): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\conio.h(131) : 参见“getch”的声明
+     1>c:\users\hjc\desktop\project\src\snakegame.cpp(293): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+     1>c:\users\hjc\desktop\project\src\snakegame.cpp(316): warning C4996: 'kbhit': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _kbhit. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\conio.h(133) : 参见“kbhit”的声明
+     1>c:\users\hjc\desktop\project\src\snakegame.cpp(317): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\conio.h(131) : 参见“getch”的声明
+     1>c:\users\hjc\desktop\project\src\snakegame.cpp(543): warning C4996: 'kbhit': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _kbhit. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\conio.h(133) : 参见“kbhit”的声明
+     1>c:\users\hjc\desktop\project\src\snakegame.cpp(544): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\conio.h(131) : 参见“getch”的声明
+         Service.cpp
+     1>c:\users\hjc\desktop\project\src\service.cpp(61): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\users\hjc\desktop\project\src\service.cpp(67): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\users\hjc\desktop\project\src\service.cpp(94): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\users\hjc\desktop\project\src\service.cpp(95): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\users\hjc\desktop\project\src\service.cpp(96): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\users\hjc\desktop\project\src\service.cpp(258): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\users\hjc\desktop\project\src\service.cpp(259): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\users\hjc\desktop\project\src\service.cpp(343): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\users\hjc\desktop\project\src\service.cpp(344): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\users\hjc\desktop\project\src\service.cpp(345): warning C4018: “<”: 有符号/无符号不匹配
+         Meeting.cpp
+         mainService.cpp
+         LogMessage.cpp
+     1>c:\users\hjc\desktop\project\src\logmessage.cpp(15): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\time.inl(112) : 参见“localtime”的声明
+         Date.cpp
+     1>c:\users\hjc\desktop\project\src\date.cpp(65): warning C4018: “<=”: 有符号/无符号不匹配
+         AgendaUI.cpp
+     1>c:\users\hjc\desktop\project\src\agendaui.cpp(260): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\users\hjc\desktop\project\src\agendaui.cpp(261): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\users\hjc\desktop\project\src\agendaui.cpp(262): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\users\hjc\desktop\project\src\agendaui.cpp(283): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\users\hjc\desktop\project\src\agendaui.cpp(284): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\users\hjc\desktop\project\src\agendaui.cpp(453): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\users\hjc\desktop\project\src\agendaui.cpp(454): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\users\hjc\desktop\project\src\agendaui.cpp(455): warning C4018: “<”: 有符号/无符号不匹配
+         AgendaService.cpp
+     1>c:\users\hjc\desktop\project\src\agendaservice.cpp(54): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>c:\users\hjc\desktop\project\src\agendaservice.cpp(65): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+         正在生成代码...
+     1>c:\users\hjc\desktop\project\src\agendaui.cpp(209): warning C4715: “AgendaUI::executeOperation”: 不是所有的控件路径都返回值
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\hjc\Desktop\project\Service\Debug\Service.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\hjc\Desktop\project\Service\Debug\Service.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\hjc\Desktop\project\Service\Debug\Service.lib" /MACHINE:X86 Debug\AgendaService.obj
+         Debug\AgendaUI.obj
+         Debug\Date.obj
+         Debug\LogMessage.obj
+         Debug\mainService.obj
+         Debug\Meeting.obj
+         Debug\Service.obj
+         Debug\SnakeGame.obj
+         Debug\Storage.obj
+         Debug\User.obj
+         Service.vcxproj -> C:\Users\hjc\Desktop\project\Service\Debug\Service.exe
+     1>已完成生成项目“C:\Users\hjc\Desktop\project\Service\Service\Service.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:09.30
